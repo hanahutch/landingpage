@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #1f2937;
+}
+
+/* header */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header-logo{
+    font-family: 'Roboto', sans-serif;    
+    color: white;
+    size: 26px ;
+}
+.header-links, p {
+    display: flex;
+    gap: 15px;
+    font-family:'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+.header{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.head-title, h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 1em;
+    margin-bottom: 20px ;
+}
+.head-title{
+    font-size: 1.75em;
+}
+.head-par{
+    padding-right: 150px;
+    margin-top: 5px;
+}
+.group-image {
+    height: 400px;
+    width: 600px;
+}
+
+/* info section */
+.info-section{
+    background-color: white;
+}
