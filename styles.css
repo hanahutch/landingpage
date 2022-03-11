@@ -5,7 +5,7 @@ body{
     background-color: #1f2937;
 }
 
-/* header */
+/* navbar */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -26,11 +26,17 @@ body{
 .link:hover {
     color:rgb(146, 146, 155);
   }
+
+  /* header */
 .header{
     display: flex;
     margin-left: 40px;
     margin-right: 20px;
+    margin-top: 100px;
     gap: 15px;
+}
+.header-section{
+    background-color: #1f2937;
 }
 .head-title, h1{
     font-family: 'Roboto', sans-serif;
@@ -38,23 +44,37 @@ body{
     line-height: 1em;
     margin-bottom: 20px ;
 }
+.header-h1{
+    font-size: 2em;
+    font-style: bolder;
+    font-weight: bold;
+}
 .head-title{
     font-size: 1.75em;
 }
 .head-par{
-    padding-right: 150px;
-    margin-top: 5px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-style: italic;
+    padding-right: 100px;
 }
-.group-image {
-    height: 400px;
-    width: 600px;
+.header-image {
+    margin: auto auto -12rem 50px;
+  transform: rotate(15deg);
 }
+.dowload-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  
+
 
 /* info section */
 .info-section{
     background-color: white;
     padding-top: 250px;
     padding-bottom: 250px;
+    position: relative;
 }
 
 
@@ -107,25 +127,26 @@ body{
 .tag-pink {
   background-color: #cd5b9f;
 }
-
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
 .card-body p {
   font-size: 13px;
   margin: 0 0 40px;
+  color: rgb(82, 82, 82);
 }
 .user {
   display: flex;
   margin-top: auto;
+  font-family: 'Roboto', sans-serif;;
 }
 
-.user img {
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
 .user-info h5 {
   margin: 0;
 }
 .user-info small {
   color: #545d7a;
+}
+small:hover{
+    color: rgb(117, 167, 252);
 }
